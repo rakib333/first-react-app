@@ -1,0 +1,31 @@
+/*---------------- 
+  header part css
+------------------- */
+
+.header-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding-left: 140px;
+    padding-right: 140px;
+    background-color:#1C2B35;
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    margin-left: 35px;
+    list-style: none;
+    
+}
+nav ul li:hover a{
+    color: chocolate;
+    transition: all 1s ease-in-out;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 17px;
+
+}
